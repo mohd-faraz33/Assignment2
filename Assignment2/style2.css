@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.zoom{
+    transition: 1s;
+}
+
+
+.zoom:hover{
+    transform: scale(1.1);
+}
+
+
+.buttons{
+    transition: 1s;
+}
+
+
+.buttons:hover{
+    transform: scale(1.2);
+}
+
+
+.Menu{
+    transition: 1s;
+}
+
+.Menu:hover{
+    transform: scale(1.3);
+}

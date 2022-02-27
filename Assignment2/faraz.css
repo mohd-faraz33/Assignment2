@@ -1,0 +1,96 @@
+
+
+
+body{
+    font-family: latha;
+    color: whitesmoke;
+    background:url(food.jpg)no-repeat;
+    background-size: cover;
+}
+
+.box{
+    width: 900px;
+    float: right;
+    border: 1px solid none;
+}
+
+.box ul li {
+    width: 150px;
+    float: left;
+    margin: 10px auto;
+    text-align: center;
+    transition: 1s;
+}
+
+
+.box ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.box ul li:hover{
+    background-color: green;
+    transform: scale(1.2);
+}
+
+
+.box ul li a:hover{
+    color: whitesmoke;
+}
+
+
+.wd{
+    width: 300px;
+    height: 539px;
+    background-color: black;
+    opacity: 0.9;
+    padding: 55px;
+}
+
+
+.wd h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 100px;
+}
+
+.wd h4{
+    text-align: justify;
+    color: darkgray;
+    font-weight: normal;
+}
+
+
+.wd h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 40px auto;
+}
+
+
+.wd h5{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 40px auto;
+}
+
+.opt form , input[type="button"]{
+    background-color: black;
+    color: whitesmoke;
+    padding: 10px;
+    margin: -14px auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    transition: 1s;
+}
+
+
+form , input[type="button"]:hover{background-color: green;transform: scale(1.2);
+
+}
+
